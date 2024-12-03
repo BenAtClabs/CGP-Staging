@@ -1,52 +1,86 @@
 ---
-cgp: 001 - <Number>
-title: Proposal 1 Title - <String>
-date-created: 0000-00-00 - <ISO 8601 (yyyy-mm-dd) format>
-author: 'Celo User (@celouser) - <String, a list of the authors name(s) and/or username(s)>'
-status: DRAFT - <DRAFT | PROPOSED | EXECUTED | EXPIRED | WITHDRAWN | REJECTED>
-discussions-to: https://forum.link - <URL of discussion forum>
-governance-proposal-id: 001 - <Number if submitted, or empty>
-date-executed: 0000-00-00 - <ISO 8601 (yyyy-mm-dd) if executed, or empty>
+cgp: 0157
+title: Enhancing Ecosystem Security Through Subsidized Services
+date-created: 2024-12-02
+author: "Benjamin Speckien (benjamin.speckien@clabs.co), Nikolaos Frestis (nikolaos.frestis@clabs.co), Stefan Ioja (stefan.ioja@clabs.co)" 
+status: DRAFT 
+discussions-to: https://forum.celo.org/t/celo-ecosystem-security-services-program-enhancing-ecosystem-security-through-subsidized-services/9360
+governance-proposal-id: 
+date-executed: 
 ---
-
-<!-- Please view other proposals for an example on filling the above section. It is important the type is correct eg Number, String -->
  
-## Overview *(please provide an overview of your proposal)*
+## Overview 
  
-- CGP - Celo Governance Proposal *(Pick a four digit number subsequent to the latest PR raised and name your file)*
+- CGP - Celo Governance Proposal 0157  
  
-### Status *(Please pick the status of your proposal, first status is always DRAFT)*
+### Status 
 
 - DRAFT = Feedback collection
-- PROPOSED = The governance proposal was submitted to the network
-- EXECUTED = The governance proposal was executed on the network
-- EXPIRED = The governance proposal expired
-- REJECTED = The governance proposal did not receive enough support
-- WITHDRAWN = The governance proposal is withdrawn before being submitted on the network
- 
+
 ### Proposal Description
-- Please provide a short description of the issue that motivates this CGP. It should indicate all parameters that are being changed and why doing so is important.
-- Explain what benefits the enhancement this change will bring. To the extent possible, enumerate use cases affected by this CGP.
-- Once the proposal is successfully proposed on chain, update this file so that the title number matches the proposal ID.
+An initiative to subsidize the cost of security services for Celo ecosystem partners. This will involve collaboration with leading security vendors to provide on-chain monitoring, automated security testing, brand protection, security architecture reviews, anti-money laundering (AML) compliance, and software supply chain security. We aim to leverage industry-leading practices and provide tools that empower partners to adopt and improve their security postures, reducing the risk of exploits that could impact the broader ecosystem.
  
-## Proposed Changes
+## Background
  
-Fill out the following template for each transaction in the proposal
+Every security incident in our ecosystem directly impacts CELO token value, degrades users’ trust, makes mainstream adoption more difficult, and gives ammunition to crypto skeptics. These impacts ripple through every project building on Celo.
+
+Traditional security reviews often exceed $150,000 per project, forcing most teams building on Celo to choose between proper security and core development. This isn’t just about individual projects, it’s about protecting Celo’s entire ecosystem value.
+
+This initiative transforms security from a luxury into a standard feature of building on Celo and aims to:
+
+Make enterprise-grade security services accessible to Celo ecosystem projects
+Reduce the financial barrier to implementing robust security measures
+Protect user funds and maintain ecosystem trust
+Enable projects to focus resources on development while maintaining security
+
  
-1. Description of transaction 1
-  - Destination: A human readable description of the address and method being called
-  - Data: A human readable description of the transaction data
-  - Value: How much CELO is being sent, and why?
+## Milestones & Verfication
  
-## Verification
- 
-An explanation of how voters can verify that this CGP does what it intends to do. Can be left as “TODO” until the proposal is made. Include things like CLI commands to run and pointers to code.
+Phase 1: Program Setup (Q1 2025)
+Program infrastructure setup
+Security vendor onboarding
+Application process launch
+Community awareness campaign
+
+Phase 2: Initial Partner Enrollment (Q1-Q2 2025)
+First batch of partner applications
+Initial security assessments
+Service implementation begins
+First monthly report publication
+
+Phase 3: Full Program Operation (Q2-Q4 2025)
+Continuation of partner onboarding
+Service delivery and monitoring
+Monthly reporting and community updates
+Mid-program assessment and adjustments
+
+Phase 4: Evaluation and Planning (Q4 2025)
+Program impact assessment
+Community feedback collection
+Sustainability planning
+Renewal proposal preparation
+
+
+Key Performance Indicators:
+Number of Partners Onboarded: Successfully onboard at least 10 partners within the first three months.
+Reduction in Vulnerabilities: Reduction in the number of vulnerabilities identified by scanning tools by 30% by the end of the project.
+Competitive Bug Bounty Participation: At least 20 bug bounty submissions, with 5 critical vulnerabilities addressed.
+Partner Satisfaction: Gather feedback from partners; aim for an average satisfaction score of 7/10 or higher.
+Security Maturity: Increase in overall security maturity scores from a scale of 1 to 5 for at least 70% of the participating projects, with a target of moving projects from an average score of 2 to an average score of 4 by the end of the program.
+
  
 ## Risks
  
-Highlight any risks and concerns that may affect consensus, proof-of-stake, governance, protocol economics, the stability protocol, security, and privacy.
+Security controls may not improve security posture at maxiumum efficiency.
+
+CELO equals total grant (contract sends 1 CELO when beneficiary registers a vote signing key)
+Risks
+
+This proposal does not deploy or upgrade contracts or change network parameters so represent minimal risk to the network.
+
+This proposal does transfer funds from the Community Fund. The major risk is an incorrect destination address that would leave the funds in the wrong account, or an incorrect releaseOwner on the ReleaseGold account. So long as those are correct, if any other parameter is incorrect, the contract can be revoked, the funds returned, and the grant reissued.
+
  
 ## Useful Links
- 
-* Optional section
-* Links to related CIPs or other documents (eg. if this is a proposal to point to a new instance of a smart contract that was updated)
+ [Celo Forum Post]([https://docs.mento.org](https://forum.celo.org/t/celo-ecosystem-security-services-program-enhancing-ecosystem-security-through-subsidized-services/9360)
+
