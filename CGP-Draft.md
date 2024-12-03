@@ -1,5 +1,5 @@
 ---
-cgp: 0157
+cgp: 157
 title: Enhancing Ecosystem Security Through Subsidized Services
 date-created: 2024-12-02
 author: "Benjamin Speckien (benjamin.speckien@clabs.co), Nikolaos Frestis (nikolaos.frestis@clabs.co), Stefan Ioja (stefan.ioja@clabs.co)" 
