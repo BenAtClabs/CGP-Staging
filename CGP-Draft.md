@@ -4,7 +4,7 @@ title: Enhancing Ecosystem Security Through Subsidized Services
 date-created: 2024-12-02
 author: "Benjamin Speckien (benjamin.speckien@clabs.co), Nikolaos Frestis (nikolaos.frestis@clabs.co), Stefan Ioja (stefan.ioja@clabs.co)" 
 status: DRAFT 
-discussions-to: https://forum.celo.org/t/celo-ecosystem-security-services-program-enhancing-ecosystem-security-through-subsidized-services/9360
+discussions-to: https://forum.celo.org/t/celo-ecosystem-security-services-program-enhancing-ecosystem-security-through-subsidized-services
 governance-proposal-id: 
 date-executed: 
 ---
@@ -68,7 +68,37 @@ Competitive Bug Bounty Participation: At least 20 bug bounty submissions, with 5
 Partner Satisfaction: Gather feedback from partners; aim for an average satisfaction score of 7/10 or higher.
 Security Maturity: Increase in overall security maturity scores from a scale of 1 to 5 for at least 70% of the participating projects, with a target of moving projects from an average score of 2 to an average score of 4 by the end of the program.
 
- 
+
+
+## Proposed Changes
+### Transactions
+Unique Transaction Approval of 580,000 CELO to Multisign ```XXXXXXXXXXXX```
+```Here should go the description of withdrawals planed```
+
+### Json Script
+```
+[
+    {
+      "contract": "GoldToken",
+      "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
+      "function": "increaseAllowance",
+      "args": [
+        "XXXXXXX", Here should go the multisign address
+        "XXXXXXX" Here should go the ammount of Celo Requested in Wei
+      ],
+      "value": "0"
+    }
+]
+```
+
+## Verification
+A human readable version of this proposal can be found using the following command (on-chain ID determined after submission):
+
+`$ celocli governance:show --proposalID TBD --node https://forno.celo.org`
+
+
+
+
 ## Risks
  
 Security controls may not improve security posture at maxiumum efficiency.
