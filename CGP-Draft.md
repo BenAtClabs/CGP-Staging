@@ -75,6 +75,19 @@ Security Maturity: Increase in overall security maturity scores from a scale of 
 Unique Transaction Approval of 580,000 CELO to Multisign ```XXXXXXXXXXXX```
 ```Here should go the description of withdrawals planed```
 
+Smart Contract & Wallet Security	120,000
+Brand Protection	70,000
+Attack Surface Monitoring	45,000
+Secrets Monitoring	45,000
+Supply Chain Security	45,000
+Secure Deployment Workflows	45,000
+Static Security Testing	15,000
+Competitive Bug Bounty Program	150,000
+Security Program Review	30,000
+Program Administration	15,000
+Total	580,000
+
+
 ### Json Script
 ```
 [
@@ -83,8 +96,8 @@ Unique Transaction Approval of 580,000 CELO to Multisign ```XXXXXXXXXXXX```
       "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
       "function": "increaseAllowance",
       "args": [
-        "0x548Fc3aD82B4834cEd0cC04A0f018003C7a94A75", Here should go the multisign address
-        "XXXXXXX" Here should go the ammount of Celo Requested in Wei
+        "0x548Fc3aD82B4834cEd0cC04A0f018003C7a94A75"
+        "580000000000000000000000000"
       ],
       "value": "0"
     }
