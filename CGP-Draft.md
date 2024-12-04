@@ -112,5 +112,5 @@ This proposal does transfer funds from the Community Fund. The major risk is an 
 
  
 ## Useful Links
- [Celo Forum Post]([https://docs.mento.org](https://forum.celo.org/t/celo-ecosystem-security-services-program-enhancing-ecosystem-security-through-subsidized-services/9360)
+ [Celo Forum Post](https://forum.celo.org/t/celo-ecosystem-security-services-program-enhancing-ecosystem-security-through-subsidized-services/9360)
 
