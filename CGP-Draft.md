@@ -83,7 +83,7 @@ Unique Transaction Approval of 580,000 CELO to Multisign ```XXXXXXXXXXXX```
       "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
       "function": "increaseAllowance",
       "args": [
-        "XXXXXXX", Here should go the multisign address
+        "0x548Fc3aD82B4834cEd0cC04A0f018003C7a94A75", Here should go the multisign address
         "XXXXXXX" Here should go the ammount of Celo Requested in Wei
       ],
       "value": "0"
