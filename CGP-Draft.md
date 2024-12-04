@@ -72,8 +72,9 @@ Security Maturity: Increase in overall security maturity scores from a scale of 
 
 ## Proposed Changes
 ### Transactions
-Unique Transaction Approval of 580,000 CELO to Multisign ```XXXXXXXXXXXX```
-```Here should go the description of withdrawals planed```
+Unique Transaction Approval of 580,000 CELO to Multisign ```0x471EcE3750Da237f93B8E339c536989b8978a438```
+```Initial transfer: 60,000 cUSD + 50,000 CELO (Upon approval)```
+```Second transfer: 60,000 cUSD + 50,000 CELO (End of H1 2025, subject to milestone completion)```
 
 Smart Contract & Wallet Security	120,000
 Brand Protection	70,000
