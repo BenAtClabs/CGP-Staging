@@ -72,20 +72,20 @@ Security Maturity: Increase in overall security maturity scores from a scale of 
 
 ## Proposed Changes
 ### Transactions
-Unique Transaction Approval of 580,000 CELO to Multisign ```0x01A0896D132c2658cA1c507C64B1a1E6B1470AAE```
-```Initial transfer: 60,000 cUSD + 50,000 CELO (Upon approval)```
-```Second transfer: 60,000 cUSD + 50,000 CELO (End of H1 2025, subject to milestone completion)```
+Unique Transaction Approval of 580,000 cUSD to Multisign ```0x01A0896D132c2658cA1c507C64B1a1E6B1470AAE```
+1. Initial transfer: 290,000 cUSD (Upon approval)
+2. Second transfer: 290,000 cUSD + 50,000 CELO (End of H1 2025, subject to milestone completion)
 
-Smart Contract & Wallet Security	120,000
-Brand Protection	70,000
+Smart Contract, Wallet, and WebApp Security Review	120,000
+Brand Protection	50,000
 Attack Surface Monitoring	45,000
-Secrets Monitoring	45,000
+Secrets Managment	45,000
 Supply Chain Security	45,000
 Secure Deployment Workflows	45,000
-Static Security Testing	15,000
+Static/Dynamic Security Testing	40,000
 Competitive Bug Bounty Program	150,000
 Security Program Review	30,000
-Program Administration	15,000
+Program Administration	10,000
 Total	580,000
 
 
