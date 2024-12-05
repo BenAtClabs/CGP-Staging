@@ -74,7 +74,7 @@ Security Maturity: Increase in overall security maturity scores from a scale of 
 ### Transactions
 Unique Transaction Approval of 580,000 cUSD to Multisign ```0x01A0896D132c2658cA1c507C64B1a1E6B1470AAE```
 1. Initial transfer: 290,000 cUSD (Upon approval)
-2. Second transfer: 290,000 cUSD + 50,000 CELO (End of H1 2025, subject to milestone completion)
+2. Second transfer: 290,000 cUSD (End of H1 2025, subject to milestone completion)
 
 Smart Contract, Wallet, and WebApp Security Review	120,000
 Brand Protection	50,000
