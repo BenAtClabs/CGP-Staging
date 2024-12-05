@@ -72,7 +72,7 @@ Security Maturity: Increase in overall security maturity scores from a scale of 
 
 ## Proposed Changes
 ### Transactions
-Unique Transaction Approval of 580,000 cUSD to Multisign ```0x01A0896D132c2658cA1c507C64B1a1E6B1470AAE```
+Unique Transaction Approval of 580,000 cUSD to Multisign ```0x35ff861a0b6215CeC71EA282B0D32AfefA661795```
 1. Initial transfer: 290,000 cUSD (Upon approval)
 2. Second transfer: 290,000 cUSD (End of H1 2025, subject to milestone completion)
 
@@ -97,7 +97,7 @@ Total	580,000
       "address": "0x471EcE3750Da237f93B8E339c536989b8978a438",
       "function": "increaseAllowance",
       "args": [
-        "0x01A0896D132c2658cA1c507C64B1a1E6B1470AAE"
+        "0x35ff861a0b6215CeC71EA282B0D32AfefA661795"
         "580000000000000000000000000"
       ],
       "value": "0"
