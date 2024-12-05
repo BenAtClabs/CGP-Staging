@@ -20,7 +20,7 @@ date-executed:
 ### Proposal Description
 An initiative to subsidize the cost of security services for Celo ecosystem partners. This will involve collaboration with leading security vendors to provide on-chain monitoring, automated security testing, brand protection, security architecture reviews, anti-money laundering (AML) compliance, and software supply chain security. We aim to leverage industry-leading practices and provide tools that empower partners to adopt and improve their security postures, reducing the risk of exploits that could impact the broader ecosystem.
 
-Funding Request: 548,723 Celo ( $580,000 as per the exchange rate on 12/05/2024 )
+Funding Request: 768,500 Celo ( $580,000 at 90 day average of celo:usd on 12/05/2024 = .675 )
  
 ## Background
  
@@ -74,9 +74,9 @@ Security Maturity: Increase in overall security maturity scores from a scale of 
 
 ## Proposed Changes
 ### Transactions
-Unique Transaction Approval of 548,723 cUSD to Multisign ```0x35ff861a0b6215CeC71EA282B0D32AfefA661795```
-1. Initial transfer: 274,362 Celo (Upon approval)
-2. Second transfer: 274,362 Celo (End of H1 2025, subject to milestone completion)
+Unique Transaction Approval of 768,500 cUSD to Multisign ```0x35ff861a0b6215CeC71EA282B0D32AfefA661795```
+1. Initial transfer: 384,250 Celo (Upon approval)
+2. Second transfer: 384,250 Celo (End of H1 2025, subject to milestone completion)
 
 Expenditure Breakdown ( amounts in cUSD )
 Smart Contract, Wallet, and WebApp Security Review	120,000
