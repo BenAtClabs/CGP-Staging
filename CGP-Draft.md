@@ -39,57 +39,55 @@ Enable projects to focus resources on development while maintaining security
 ## Milestones & Verfication
  
 Phase 1: Program Setup (Q1 2025)
-Program infrastructure setup
-Security vendor onboarding
-Application process launch
-Community awareness campaign
+   - Program infrastructure setup
+   - Security vendor onboarding
+   - Application process launch
+   - Community awareness campaign
 
 Phase 2: Initial Partner Enrollment (Q1-Q2 2025)
-First batch of partner applications
-Initial security assessments
-Service implementation begins
-First monthly report publication
+   - First batch of partner applications
+   - Initial security assessments
+   - Service implementation begins
+   - First monthly report publication
 
 Phase 3: Full Program Operation (Q2-Q4 2025)
-Continuation of partner onboarding
-Service delivery and monitoring
-Monthly reporting and community updates
-Mid-program assessment and adjustments
+   - Continuation of partner onboarding
+   - Service delivery and monitoring
+   - Monthly reporting and community updates
+   - Mid-program assessment and adjustments
 
 Phase 4: Evaluation and Planning (Q4 2025)
-Program impact assessment
-Community feedback collection
-Sustainability planning
-Renewal proposal preparation
+   - Program impact assessment
+   - Community feedback collection
+   - Sustainability planning
+   - Renewal proposal preparation
 
 
 Key Performance Indicators:
-Number of Partners Onboarded: Successfully onboard at least 10 partners within the first three months.
-Reduction in Vulnerabilities: Reduction in the number of vulnerabilities identified by scanning tools by 30% by the end of the project.
-Competitive Bug Bounty Participation: At least 20 bug bounty submissions, with 5 critical vulnerabilities addressed.
-Partner Satisfaction: Gather feedback from partners; aim for an average satisfaction score of 7/10 or higher.
-Security Maturity: Increase in overall security maturity scores from a scale of 1 to 5 for at least 70% of the participating projects, with a target of moving projects from an average score of 2 to an average score of 4 by the end of the program.
-
-
+   - Number of Partners Onboarded: Successfully onboard at least 10 partners within the first three months.
+   - Reduction in Vulnerabilities: Reduction in the number of vulnerabilities identified by scanning tools by 30% by the end of the project.
+   - Competitive Bug Bounty Participation: At least 20 bug bounty submissions, with 5 critical vulnerabilities addressed.
+   - Partner Satisfaction: Gather feedback from partners; aim for an average satisfaction score of 7/10 or higher.
+   - Security Maturity: Increase in overall security maturity scores from a scale of 1 to 5 for at least 70% of the participating projects, with a target of moving projects from an average score of 2 to an average score of 4 by the end of the program.
 
 ## Proposed Changes
 ### Transactions
-Unique Transaction Approval of 768,500 cUSD to Multisign ```0x35ff861a0b6215CeC71EA282B0D32AfefA661795```
-1. Initial transfer: 384,250 Celo (Upon approval)
-2. Second transfer: 384,250 Celo (End of H1 2025, subject to milestone completion)
+   - Unique Transaction Approval of 768,500 cUSD to Multisign ```0x35ff861a0b6215CeC71EA282B0D32AfefA661795```
+   -  Initial transfer: 384,250 Celo (Upon approval)
+   -  Second transfer: 384,250 Celo (End of H1 2025, subject to milestone completion)
 
 Expenditure Breakdown ( amounts in cUSD )
-Smart Contract, Wallet, and WebApp Security Review	120,000
-Brand Protection	50,000
-Attack Surface Monitoring	45,000
-Secrets Managment	45,000
-Supply Chain Security	45,000
-Secure Deployment Workflows	45,000
-Static/Dynamic Security Testing	40,000
-Competitive Bug Bounty Program	150,000
-Security Program Review	30,000
-Program Administration	10,000
-Total	580,000 cUSD
+   - Smart Contract, Wallet, and WebApp Security Review	120,000
+   - Brand Protection	50,000
+   - Attack Surface Monitoring	45,000
+   - Secrets Managment	45,000
+   - Supply Chain Security	45,000
+   - Secure Deployment Workflows	45,000
+   - Static/Dynamic Security Testing	40,000
+   - Competitive Bug Bounty Program	150,000
+   - Security Program Review	30,000
+   - Program Administration	10,000
+   - Total	580,000 cUSD
 
 
 ### Json Script
@@ -121,7 +119,9 @@ A human readable version of this proposal can be found using the following comma
 Security controls may not improve security posture at maxiumum efficiency.
 
 CELO equals total grant (contract sends 1 CELO when beneficiary registers a vote signing key)
-Risks
+Risks.
+
+All unused funds will be returned to the community fund. 
 
 This proposal does not deploy or upgrade contracts or change network parameters so represent minimal risk to the network.
 
